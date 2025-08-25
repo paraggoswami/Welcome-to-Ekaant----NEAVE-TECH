@@ -1,0 +1,33 @@
+.footer {
+  background-color: #004d25; /* Dark green */
+  color: white;
+  padding: 40px 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-left {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.footer-right {
+  flex: 1;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-right strong {
+  font-weight: bold;
+}

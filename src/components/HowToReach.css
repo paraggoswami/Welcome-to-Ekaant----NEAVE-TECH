@@ -1,0 +1,62 @@
+.reach {
+  padding: 80px 50px;
+  background: #f9f9f9;
+}
+
+.reach h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #004d00;
+}
+
+.reach-content {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;  
+  justify-content: center;
+}
+
+.reach-map {
+  flex: 1;
+  max-width: 400px;   
+}
+
+.reach-map img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.reach-text {
+  flex: 2;
+}
+
+.reach-box {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.reach-box:last-child {
+  border-bottom: none;
+}
+
+.reach-box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #004d00;
+}
+
+.reach-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reach-box ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+}
